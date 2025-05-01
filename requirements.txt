@@ -1,0 +1,15 @@
+# Python version
+python>=3.10
+
+# Agent‐based modeling
+mesa>=1.2.0
+
+# Data processing & progress bars
+numpy>=1.23.0
+tqdm>=4.64.0
+
+# LLM integration
+langchain>=0.0.300
+
+# Validation of model schemas
+pydantic>=1.10.0
