@@ -1,7 +1,6 @@
-```markdown
 # Hydrosocial ABM + LLM
 
-A prototype Agent-Based Model (ABM) of Amazon hydropower governance that embeds **relational philosophy** (“hydrosocial territories”) into a Mesa simulation, coupled with an Ollama‐backed LLM (DeepSeekModel) to generate real-time narrative feedback and adaptive compensation policies.
+A prototype Agent-Based Model (ABM) of Amazon hydropower governance that embeds **relational philosophy** (“hydrosocial territories”) into a Mesa simulation, coupled with an Ollama-backed LLM (DeepSeekModel) to generate real-time narrative feedback and adaptive compensation policies.
 
 Paper link:
 
@@ -10,9 +9,9 @@ Paper link:
 ## 🔍 Features
 
 - **Heterogeneous stakeholders**: operators, communities, regulators  
-- **Environmental agent**: dynamic reservoir‐level decay  
+- **Environmental agent**: dynamic reservoir-level decay  
 - **Judging agent**: aggregates votes, computes consensus & conflict  
-- **LLM‐driven narratives**: one-line summaries & policy recommendations  
+- **LLM-driven narratives**: one-line summaries & policy recommendations  
 - **Adaptive compensation**: adjusts FCUWR multiplier on the fly  
 - **Latin-Hypercube exploration**: sweeps 7 key axes over 20 scenarios  
 - **Data logging**: combined CSV outputs for downstream analysis  
@@ -66,15 +65,15 @@ You can edit at the bottom of `run.py`:
 
 Each entry in `scenario_params` controls one axis of your experiment:
 
-| Parameter               | Type      | Description                                                     |
-|-------------------------|-----------|-----------------------------------------------------------------|
-| `initial_water`         | float     | Starting reservoir level (0–100)                                |
-| `decay_rate`            | float     | Max water drop per step                                         |
-| `compensation_adjustment` | float   | Initial FCUWR multiplier                                        |
-| `num_communities`       | int       | Number of community agents (e.g. 1, 3, 5)                       |
-| `power_asymmetry`       | float     | Operator’s technical advantage factor                           |
-| `conflict_threshold`    | float     | Water‐level below which conflict intensity starts accumulating   |
-| `llm_mode`              | string    | Narrative mode: `off`, `baseline`, or `aggressive`               |
+| Parameter                 | Type    | Description                                                      |
+|---------------------------|---------|------------------------------------------------------------------|
+| `initial_water`           | float   | Starting reservoir level (0–100)                                 |
+| `decay_rate`              | float   | Max water drop per step                                          |
+| `compensation_adjustment` | float   | Initial FCUWR multiplier                                         |
+| `num_communities`         | int     | Number of community agents (e.g. 1, 3, 5)                        |
+| `power_asymmetry`         | float   | Operator’s technical advantage factor                            |
+| `conflict_threshold`      | float   | Water-level below which conflict intensity starts accumulating   |
+| `llm_mode`                | string  | Narrative mode: `off`, `baseline`, or `aggressive`               |
 
 ---
 
@@ -103,7 +102,4 @@ Use your preferred analysis notebook or tool (e.g., pandas, Jupyter, Power BI) t
 
 If you use this work, please cite:
 
-> Soares, C.P. (2025). *Modeling Hydrosocial Territories: Integrating Relational Philosophy and Socio‑Hydrology in the Context of Hydropower through ABM and AI*. GitHub repository, https://github.com/cpscesar/hydrosocial-abm-llm  
-
----
-```
+> Soares, C.P. (2025). *Modeling Hydrosocial Territories: Integrating Relational Philosophy and Socio-Hydrology in the Context of Hydropower through ABM and AI*. GitHub repository, https://github.com/cpscesar/hydrosocial-abm-llm
