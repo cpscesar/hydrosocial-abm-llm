@@ -10,7 +10,7 @@ A prototype Agent-Based Model (ABM) of Amazon hydropower governance that embeds 
 - **Environmental agent**: dynamic reservoir-level decay  
 - **Judging agent**: aggregates votes, computes consensus & conflict  
 - **LLM-driven narratives**: one-line summaries & policy recommendations  
-- **Adaptive compensation**: adjusts FCUWR multiplier on the fly  
+- **Adaptive compensation**: adjusts FCUWR (compensation) multiplier on the fly  
 - **Latin-Hypercube exploration**: sweeps 7 key axes over 20 scenarios  
 - **Data logging**: combined CSV outputs for downstream analysis  
 
