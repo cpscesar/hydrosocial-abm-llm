@@ -100,4 +100,4 @@ Use your preferred analysis notebook or tool (e.g., pandas, Jupyter, Power BI) t
 
 If you use this work, please cite:
 
-> Soares, C.P. (2025). *Relational Philosophy Smulation*. GitHub repository, https://github.com/cpscesar/hydrosocial-abm-llm
+> Soares, C.P. (2025). *Relational Philosophy Simulation*. GitHub repository, https://github.com/cpscesar/hydrosocial-abm-llm
