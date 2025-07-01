@@ -1,4 +1,4 @@
-# Hydrosocial ABM + LLM
+# Relational Philosophy Simulation
 
 A prototype Agent-Based Model (ABM) of Amazon hydropower governance that embeds **relational philosophy** (“hydrosocial territories”) into a Mesa simulation, coupled with an Ollama-backed LLM (DeepSeekModel) to generate real-time narrative feedback and adaptive compensation policies.
 
